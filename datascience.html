@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fill Form</title>
+    
+    <link rel="stylesheet" href="../static/files/css/bootstrap.css" />
+    <link rel="stylesheet" href="../static/files/css/lightslider.css" />
+    <link rel="stylesheet" href="../static/files/css/style.css" />
+
+    <script src="../static/files/js/bootstrap.js"></script>
+    <script src="../static/files/js/jquery.js"></script>
+
+    <script src="../static/files/js/lightslider.js"></script>
+    <script src="../static/files/js/script.js"></script>
+  </head>
+  <body>
+    <div class="container pb-5 pt-4">
+      <section class="row">
+
+        <div class="col-md-6 card shadow pb-5 pt-5 ps-4 pe-4">
+
+          <form action="/hypertension" method="post" enctype="multipart/form-data" title="hypertension prediction">
+
+            <label for="Gender">Select your gender  </label>
+            <select name="Gender" class="form-control" required>
+              <option value="1">Male</option>
+              <option value="0">Female</option>
+            </select><br><br>
+
+            <label for="Age">Age</label>
+            <input type="number" name="Age" placeholder="Enter Age" class="form-control" required/><br>
+
+            <label for="currentSmoker">currentSmoker</label>
+            <select name="currentSmoker" class="form-control" required>
+              <option value="1">Yes</option>
+              <option value="0">No</option>
+            </select><br><br>
+            <label for="cigsPerDay">cigsPerDay</label>
+            <input type="number" name="cigsPerDay" placeholder="cigsPerDay" class="form-control" required/><br><br>
+            <label for="BPMeds">BPMeds</label>
+            <select name="BPMeds" class="form-control" required>
+              <option value="1">Yes</option>
+              <option value="0">No</option>
+            </select><br><br>
+            <label for="diabetes">Dou you have diabetes </label>
+            <select name="diabetes" class="form-control" required>
+              <option value="1">Yes</option>
+              <option value="0">No</option>
+            </select><br><br>
+            <label for="totChol">Total Cholestrol</label>
+            <input type="number" name="totChol" placeholder="Total Cholestrol" class="form-control" required/><br><br>
+            <label for="sysBP">System Bloodpressure</label>
+            <input type="number" name="sysBP" placeholder="System Bloodpressure" class="form-control" required/><br><br>
+            <label for="diaBP">Diastolic Bloodpressure</label>
+            <input type="number" name="diaBP" placeholder="Diastolic Bloodpressure" class="form-control" required/><br><br>
+            <label for="BMI">BMI</label>
+            <input type="number" name="BMI" placeholder="BMI" class="form-control" required/><br><br>
+            <label for="heartrate">heartRate</label>
+            <input type="number" name="heartRate" placeholder="heartRate" class="form-control" required/><br><br>
+            <label for="glucose">glucose</label>
+            <input type="number" name="glucose" placeholder="glucose" class="form-control" required/><br><br>
+            <input type="submit" value="FIND OUT" class="btn btn-primary"/><br/>
+          </form>
+        </div>
+        <div class="col-md-6"></div>
+      </section>
+
+      <h5>You are likely to be {{prediction}} of getting hypertension</h5>
+   
+       </div>
+
+  </body>
+</html>
