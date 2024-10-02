@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @RobiNormy
+- 👋 Hi, I’m @Robi
 - 👀 I’m interested in Android development and Cyber security
 - 🌱 I’m currently learning Web development
 - 💞️ I’m looking to collaborate on ...
