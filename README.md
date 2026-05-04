@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Robi
 - 👀 I’m interested in Android development and Cyber security
-- 🌱 I’m currently learning Web development
+- 🌱 I’m currently exploring app development
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me mwendwarobinson3@gmail.com
 - 😄 Pronouns: HIM
